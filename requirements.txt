@@ -1,0 +1,8 @@
+ctransformers==0.2.5 #we are using a quantized model here. To load this model we need ctransformer
+sentence-transformers==2.2.2# To embed chunks of text we are using a free embedding model. that is downloaded from hugging face library.
+pinecone-client# to integrate pinecone vector db.
+langchain==0.0.225
+flask
+pypdf
+python-dotenv
+-e .
