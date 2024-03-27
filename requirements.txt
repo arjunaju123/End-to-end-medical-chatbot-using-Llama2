@@ -1,8 +1,17 @@
-ctransformers==0.2.27 #we are using a quantized model here. To load this model we need ctransformer
-sentence-transformers==2.6.1 #To embed chunks of text we are using a free embedding model. that is downloaded from hugging face library.
-pinecone-client==3.1.0# to integrate pinecone vector db.
+ctransformers==0.2.27 
+sentence-transformers==2.6.1 
+pinecone-client==3.1.0
 langchain==0.1.12
 flask
 pypdf
 python-dotenv
 -e .
+
+# ctransformers==0.2.27 #we are using a quantized model here. To load this model we need ctransformer
+# sentence-transformers==2.6.1 #To embed chunks of text we are using a free embedding model. that is downloaded from hugging face library.
+# pinecone-client==3.1.0# to integrate pinecone vector db.
+# langchain==0.1.12
+# flask
+# pypdf
+# python-dotenv
+# -e . #it will install the local packages specified in setup.py
