@@ -17,7 +17,6 @@ python-dotenv
 # -e . #it will install the local packages specified in setup.py
 dotenv==0.9.9
 flask==3.1.1
-langchain==0.3.27
 langchain_community==0.3.27
 logging==0.4.9.6
 pinecone==7.3.0
